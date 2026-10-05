@@ -12,9 +12,9 @@ namespace Efcore.Repositories
     {
         private readonly PedidoContext _ctx;
 
-        public ProdutoRepository()
+        public ProdutoRepository(PedidoContext context)
         {
-            _ctx = new PedidoContext();
+            _ctx = context;
         }
         
         public void Adicionar(Produto produto)
