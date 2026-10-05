@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Efcore.Interfaces
 {
-    interface IProdutoRepository
+     public interface IProdutoRepository
     {
         List<Produto> Listar();
         List<Produto> BuscarPorNome(string nome);
