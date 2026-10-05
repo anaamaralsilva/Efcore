@@ -16,12 +16,12 @@ namespace Efcore.Controllers
     [ApiController]
     public class ProdutosController : ControllerBase
     {
-        private IProdutoRepository _produtoRepository;
+    private readonly IProdutoRepository _produtoRepository;
 
-        public ProdutosController()
-        {
-            _produtoRepository = new ProdutoRepository();
-        }
+    public ProdutosController(IProdutoRepository produtoRepository)
+    {
+        _produtoRepository = produtoRepository;
+    }
 
         [HttpGet]
         public IActionResult Get()
