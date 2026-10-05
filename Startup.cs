@@ -14,6 +14,8 @@ using Microsoft.Extensions.Logging ;
 using Microsoft.OpenApi.Models;
 using Efcore.Contexts;
 using Microsoft.EntityFrameworkCore;
+using Efcore.Interfaces;
+using Efcore.Repositories;
 
 namespace Efcore
 {
@@ -31,6 +33,7 @@ namespace Efcore
         {
             services.AddDbContext<PedidoContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
             
             services.AddControllers().AddNewtonsoftJson(options =>
             {
