@@ -2,7 +2,7 @@
 
 REST API developed with C# and ASP.NET Core for product and order management.
 
-This project was originally developed as an academic project during my Software Development studies and demonstrates backend concepts such as REST APIs, Entity Framework Core, SQL Server, Repository Pattern, file uploads and external API integration.
+This project was originally developed as an academic project during my **Technical Course in Systems Development at SENAI** and demonstrates backend concepts such as REST APIs, Entity Framework Core, SQL Server, Repository Pattern, file uploads and external API integration.
 
 ## About the Project
 
@@ -107,9 +107,9 @@ Swagger/OpenAPI is configured in the project to provide interactive API document
 
 ## Project Status
 
-This is an academic project originally developed with **.NET Core 3.1**.
+This is an academic project originally developed during my **Technical Course in Systems Development at SENAI**, using **.NET Core 3.1**.
 
-The project has been preserved and organized as part of my software development portfolio to demonstrate my studies and progression in backend development.
+The project has been preserved and organized as part of my software development portfolio to demonstrate my technical development and progression in backend development.
 
 > Note: .NET Core 3.1 is no longer supported and is maintained here for historical and educational purposes.
 
